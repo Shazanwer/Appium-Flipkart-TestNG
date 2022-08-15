@@ -93,7 +93,7 @@ public class flipkart {
   public void cancelOperation() {
 	  MobileElement cancelBtn = (MobileElement) driver.findElementById("com.flipkart.android:id/custom_back_icon");
 	  cancelBtn.click();
-	  System.out.println("Register with MobileNo or Email ID screen is cancelled.");
+	  System.out.println("Register with MobileNo or Email ID screen is canceled.");
   }
   
   public void allowLocationAccess() throws InterruptedException {
@@ -103,7 +103,7 @@ public class flipkart {
 	    Thread.sleep(2000);
 	    MobileElement allowOneTimeBtn = (MobileElement) driver.findElementById("com.android.permissioncontroller:id/permission_allow_one_time_button");
 	    allowOneTimeBtn.click();
-	    System.out.println("Allow location dialog window is closd and the result list is displayed.");
+	    System.out.println("Allow location dialog window is closed and the result list is displayed.");
 	    Thread.sleep(2000);
   }
 
